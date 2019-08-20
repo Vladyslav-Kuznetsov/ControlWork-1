@@ -7,7 +7,6 @@ namespace ControlWork
         static void Main(string[] args)
         {
             string[] result = Console.ReadLine().Split(';');
-            //string[] result = "Kharkiv=100000,350;kiev=2000000,200;Las Vegas=6000,100".Split(';');
             string longestName = string.Empty;
             string mostPopulated = string.Empty;
             int maxPeopple = 0;
